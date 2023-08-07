@@ -1,0 +1,48 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_darkness = 0.74
+    background_type = transparent
+    cursor_shape = underline
+    font = Source Code Pro 14
+    show_titlebar = False
+    exit_action = hold
+    palette = "#5200b3:#ff5757:#a457ff:#ffc557:#759aff:#a457ff:#759aff:#aaa1b4:#2a009d:#ff8d8d:#7030bc:#ffdd9d:#baccff:#7030bc:#baccff:#eee0ff"
+    use_system_font = False
+    title_hide_sizetext = True
+    title_transmit_fg_color = "#a457ff"
+    title_transmit_bg_color = "#7030bc"
+    title_receive_fg_color = "#eee0ff"
+    title_receive_bg_color = "#aaa1b4"
+    title_inactive_fg_color = "#582f89"
+    title_inactive_bg_color = "#1a0b2c"
+  [[copy]]
+    icon_bell = False
+    background_color = "#002b36"
+    background_darkness = 0.56
+    background_type = transparent
+    cursor_shape = underline
+    font = Source Code Pro 14
+    foreground_color = "#839496"
+    show_titlebar = False
+    exit_action = hold
+    palette = "#1a0b2c:#ff5757:#a457ff:#ffc557:#759aff:#a457ff:#759aff:#aaa1b4:#30194b:#ff8d8d:#7030bc:#ffdd9d:#baccff:#7030bc:#baccff:#eee0ff"
+    use_system_font = False
+    title_hide_sizetext = True
+    title_transmit_fg_color = "#a457ff"
+    title_transmit_bg_color = "#7030bc"
+    title_receive_fg_color = "#eee0ff"
+    title_receive_bg_color = "#aaa1b4"
+    title_inactive_fg_color = "#582f89"
+    title_inactive_bg_color = "#1a0b2c"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

@@ -1,0 +1,7 @@
+configuration {
+    display-drun: "Applications:";
+    drun-display-format: "{icon} {name}";
+    show-icons: true;    
+}
+
+@theme "~/.config/rofi/Themes/jtheme.rasi"
