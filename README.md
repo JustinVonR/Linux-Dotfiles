@@ -10,7 +10,7 @@ the following programs to be installed before using:
 + Terminator
 + Light (replaces xbacklight because it functions better in my case)
 
-Changes Made to default i3 scripts:
+Changes Made to default EOS i3 scripts:
 
 + Removed hibernate from the power menu options in `powermenu` and switched it to use my customized rofi theme
 + Replaced xbacklight with light in `volume_brightness.sh` because xbacklight doesn't work for me
