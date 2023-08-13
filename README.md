@@ -6,8 +6,14 @@
 These dotfiles are designed for the i3 edition of EndeavourOS and require 
 the following programs to be installed before using:
 
-+ Polybar
++ Polybar 
 + Terminator
++ Light (replaces xbacklight because it functions better in my case)
+
+Changes Made to default i3 scripts:
+
++ Removed hibernate from the power menu options in `powermenu` and switched it to use my customized rofi theme
++ Replaced xbacklight with light in `volume_brightness.sh` because xbacklight doesn't work for me
 
 > [!IMPORTANT]
-> My dotfiles are compatible with the latest updates as of 8/6/2023
+> My dotfiles are compatible with the latest updates as of 8/13/2023
